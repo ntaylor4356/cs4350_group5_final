@@ -1,0 +1,32 @@
+2012/03/10 09:55:37 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "/home/bashby/school/cs4350/final/www_root/assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in /home/bashby/school/cs4350/final/yii_framework/framework/web/CAssetManager.php:116
+Stack trace:
+#0 /home/bashby/school/cs4350/final/yii_framework/framework/web/CAssetManager.php(101): CAssetManager->setBasePath('/home/bashby/sc...')
+#1 /home/bashby/school/cs4350/final/yii_framework/framework/web/CAssetManager.php(219): CAssetManager->getBasePath()
+#2 /home/bashby/school/cs4350/final/www_root/protected/extensions/bootstrap/components/Bootstrap.php(351): CAssetManager->publish('/home/bashby/sc...', false, -1, true)
+#3 /home/bashby/school/cs4350/final/www_root/protected/extensions/bootstrap/components/Bootstrap.php(89): Bootstrap->getAssetsUrl()
+#4 /home/bashby/school/cs4350/final/www_root/protected/extensions/bootstrap/components/Bootstrap.php(62): Bootstrap->registerCss()
+#5 /home/bashby/school/cs4350/final/yii_framework/framework/base/CModule.php(388): Bootstrap->init()
+#6 /home/bashby/school/cs4350/final/yii_framework/framework/base/CModule.php(493): CModule->getComponent('bootstrap')
+#7 /home/bashby/school/cs4350/final/yii_framework/framework/base/CApplication.php(146): CModule->preloadComponents()
+#8 /home/bashby/school/cs4350/final/yii_framework/framework/YiiBase.php(127): CApplication->__construct('/home/bashby/sc...')
+#9 /home/bashby/school/cs4350/final/yii_framework/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/home/bashby/sc...')
+#10 /home/bashby/school/cs4350/final/www_root/index.php(13): YiiBase::createWebApplication('/home/bashby/sc...')
+#11 {main}
+REQUEST_URI=/index.php
+---
+2012/03/10 09:55:38 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "/home/bashby/school/cs4350/final/www_root/assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in /home/bashby/school/cs4350/final/yii_framework/framework/web/CAssetManager.php:116
+Stack trace:
+#0 /home/bashby/school/cs4350/final/yii_framework/framework/web/CAssetManager.php(101): CAssetManager->setBasePath('/home/bashby/sc...')
+#1 /home/bashby/school/cs4350/final/yii_framework/framework/web/CAssetManager.php(219): CAssetManager->getBasePath()
+#2 /home/bashby/school/cs4350/final/www_root/protected/extensions/bootstrap/components/Bootstrap.php(351): CAssetManager->publish('/home/bashby/sc...', false, -1, true)
+#3 /home/bashby/school/cs4350/final/www_root/protected/extensions/bootstrap/components/Bootstrap.php(89): Bootstrap->getAssetsUrl()
+#4 /home/bashby/school/cs4350/final/www_root/protected/extensions/bootstrap/components/Bootstrap.php(62): Bootstrap->registerCss()
+#5 /home/bashby/school/cs4350/final/yii_framework/framework/base/CModule.php(388): Bootstrap->init()
+#6 /home/bashby/school/cs4350/final/yii_framework/framework/base/CModule.php(493): CModule->getComponent('bootstrap')
+#7 /home/bashby/school/cs4350/final/yii_framework/framework/base/CApplication.php(146): CModule->preloadComponents()
+#8 /home/bashby/school/cs4350/final/yii_framework/framework/YiiBase.php(127): CApplication->__construct('/home/bashby/sc...')
+#9 /home/bashby/school/cs4350/final/yii_framework/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/home/bashby/sc...')
+#10 /home/bashby/school/cs4350/final/www_root/index.php(13): YiiBase::createWebApplication('/home/bashby/sc...')
+#11 {main}
+REQUEST_URI=/index.php
+---
