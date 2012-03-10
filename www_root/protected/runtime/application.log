@@ -30,3 +30,13 @@ Stack trace:
 #11 {main}
 REQUEST_URI=/index.php
 ---
+2012/03/10 09:57:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/bashby/school/cs4350/final/yii_framework/framework/gii/GiiModule.php:165
+Stack trace:
+#0 /home/bashby/school/cs4350/final/yii_framework/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/bashby/school/cs4350/final/yii_framework/framework/web/CWebApplication.php(276): CController->run('')
+#2 /home/bashby/school/cs4350/final/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('gii')
+#3 /home/bashby/school/cs4350/final/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/bashby/school/cs4350/final/www_root/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
