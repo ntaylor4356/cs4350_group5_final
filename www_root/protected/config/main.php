@@ -10,7 +10,7 @@ return array(
 	'name'=>'My Web Application',
 
 	// preloading 'log' component
-	'preload'=>array('log'),
+	'preload'=>array('log','bootstrap'),
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -23,11 +23,17 @@ return array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'Enter Your Password Here',
 			'ipFilters'=>array('127.0.0.1','::1'),
+			'generatorPaths' => array(
+				'bootstrap.gii'
+			),
 		),
 	),
 
 	// application components
 	'components'=>array(
+		'bootstrap' => array(
+			'class' => 'ext.bootstrap.components.Bootstrap',
+		),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
