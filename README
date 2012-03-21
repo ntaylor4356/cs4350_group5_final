@@ -7,9 +7,9 @@ TASK ASSIGNMENT:
 
 The application must use the Bootstrap plug-in for the user interface - Ben Ashby (Done 31 March)
 
-Home/Blog page with content management capabilities
-User login with user management (bonus points for OpenID integration)
-Dealer profile page
+Home/Blog page with content management capabilities - Nicholas
+User login with user management (bonus points for OpenID integration) - Ben Ashby
+Dealer profile page  -- Ben Ashby
   Dealer Name (provided by ATF data)
   FFL Expiration date (provided by ATF data)
   Bio (provided by the dealer)
@@ -19,7 +19,11 @@ Dealer profile page
   Willing to accept transfers? (provided by the dealer)
   Transfer Fees? (provided by the dealer)
   Overall user rating
-Dealer search (search the database of locations based on the users current location or a zip code)
-Must have a user comment and rating system for each dealer
-Must allow a user to choose multiple "favorite" dealers
-Must have Facebook, Twitter, Google+ integration
+Dealer search (search the database of locations based on the users current location or a zip code) - Atruro
+Must have a user comment and rating system for each dealer - Arturo
+Must allow a user to choose multiple "favorite" dealers -- Ben Ashby
+Must have Facebook, Twitter, Google+ integration - Nick
+
+
+DATABASE UPDATES
+www_root/protected/data/schema.sqlite.sql - Update this fie whenever you need to add new tables
