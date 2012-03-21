@@ -10,15 +10,15 @@ The application must use the Bootstrap plug-in for the user interface - Ben Ashb
 Home/Blog page with content management capabilities
 User login with user management (bonus points for OpenID integration)
 Dealer profile page
-Dealer Name (provided by ATF data)
-FFL Expiration date (provided by ATF data)
-Bio (provided by the dealer)
-Location (provided by ATF data)
-Type (provided by ATF data)
-Phone (provided by ATF data)
-Willing to accept transfers? (provided by the dealer)
-Transfer Fees? (provided by the dealer)
-Overall user rating
+  Dealer Name (provided by ATF data)
+  FFL Expiration date (provided by ATF data)
+  Bio (provided by the dealer)
+  Location (provided by ATF data)
+  Type (provided by ATF data)
+  Phone (provided by ATF data)
+  Willing to accept transfers? (provided by the dealer)
+  Transfer Fees? (provided by the dealer)
+  Overall user rating
 Dealer search (search the database of locations based on the users current location or a zip code)
 Must have a user comment and rating system for each dealer
 Must allow a user to choose multiple "favorite" dealers
