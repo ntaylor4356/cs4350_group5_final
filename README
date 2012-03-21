@@ -1,2 +1,4 @@
 www_root contains the web root
 yii_framework contains the unpacked framework
+
+I enabled GII, but you'll have to alter the IP Filtering to your needs
