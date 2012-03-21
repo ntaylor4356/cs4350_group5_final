@@ -5,7 +5,7 @@ I enabled GII, but you'll have to alter the IP Filtering to your needs
 
 TASK ASSIGNMENT:
 
-The application must use the Bootstrap plug-in for the user interface - Ben Ashby 31 March
+The application must use the Bootstrap plug-in for the user interface - Ben Ashby (Done 31 March)
 
 Home/Blog page with content management capabilities
 User login with user management (bonus points for OpenID integration)
